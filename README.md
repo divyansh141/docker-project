@@ -1,4 +1,4 @@
-# My-Docker-Project
+# Docker Project
 # INTRODUCTION
 I have completed my Docker Training under IIEC RISE 1.0 by Vimal Daga Sir. This is my project where after running my docker compose file in the system, you can access the Web Pages and Database in 1-2 seconds using docker.
 # REQUIREMENTS
