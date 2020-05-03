@@ -1,7 +1,7 @@
 # Docker Project
 # INTRODUCTION
 I have completed my Docker Training under IIEC RISE 1.0 by Vimal Daga Sir. This is my project where after running my docker compose file in the system, you can access the Web Pages and Database in 1-2 seconds using docker.
-# REQUIREMENTS
+# My Setup
 - Virtualisation tool- I have used Oracle VirtualBox 6.0
 - Linux- I have used RHEL8 (REDHAT ENTERPRISE LINUX VERSION 8)
 
@@ -9,7 +9,7 @@ On top of Redhat I’ve used:
 - Docker community version : 19.03.8
 - Centos:7
 - MySql version: 5.7.29
-# DOING THE SETUP
+# Steps to Follow
 1) Pulling images-
 Start docker services by systemctl start docker command. I have pulled images of mysql: 5.7.29 , centos:7 and php:latest for my project.
 
