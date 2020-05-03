@@ -1,0 +1,31 @@
+version: '3'
+services:
+  webos:
+    image: centos-web
+    restart: always
+    container_name: webos         
+    volumes:
+      - web-storage:/var/www/html/
+    ports:
+      - 4321:80
+    dns:
+      - 172.17.0.2
+    command: bash
+    tty: true
+
+  dbos:
+    image: mysql:5.7
+    container_name: dbos
+    volumes:
+      - db-storage:/var/lib/mysql/
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: redhat
+      MYSQL_USER: root
+      MYSQL_PASSWORD: redhat
+      MYSQL_DATABASE: mydb
+
+
+volumes:
+  db-storage:
+  web-storage:
