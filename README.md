@@ -47,6 +47,7 @@ Place the web pages ( that I’ve uploaded in Website Directory ) in the volume 
 Check your redhat’s IP by ifconfig command. Access the first page- States.html by your Redhat’s IP: Port no 4321
 
 Ex- 192.168.43.180:4321
+
 SCOPE OF IMPROVEMENT:
 This project is currently working on Local Netwotk and i will try to host it publically. For that i can use Ngrok for free public IP and  GoDaddy is also a option for paid services.
 # ACKNOWLEDGEMENT
