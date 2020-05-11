@@ -40,10 +40,10 @@ Specify the dependencies between services eg. here web service depends on dbos s
 # environment:
 I have specified environment variables in it.
 
-4) Placing the web pages in the web volume storage-
+4) Put the WebPages in created volume-
 To see webpages in your browser, put all the web pages that I’ve uploaded in Website Directory, in the volume that is created for webos by docker-compose.yml file.
 
-5) Accessing the web pages-
+5) See WebPages in Browser-
 To see weoking webpages, check your base's (redhat) IP by ifconfig enp0s3 command. Access the first page- States.html by your Base’s IP and Port no. 4321
 
 For Ex- 192.168.43.180:4321/States.html
