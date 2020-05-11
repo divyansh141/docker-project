@@ -1,6 +1,6 @@
 # Docker Project
 # INTRODUCTION
-I have completed my Docker Training under IIEC RISE 1.0 by Vimal Daga Sir. I have created a docker-compose.yml file and after running this file you can access my WebPages in 1-2 seconds depending on your system specs.
+Recently, I have completed my Docker Training under IIEC RISE 1.0 intsructed by Vimal Daga Sir. I have created a docker-compose.yml file and after running this file you can access my WebPages in 1-2 seconds depending on your system specs.
 # My Setup
 - I have used Oracle VirtualBox 6.0
 - I have used RHEL8 (REDHAT ENTERPRISE LINUX VERSION 8) in Oracle VirtualBox
